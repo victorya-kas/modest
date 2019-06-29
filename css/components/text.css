@@ -1,0 +1,16 @@
+.text {
+    color: #8d8f92;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.text-dark {
+    color: #dcdfe1;
+    font-family:'Open Sans', sans-serif;
+}
+.text-center {
+    text-align: center;
+    margin: 0px;
+}
+.text-bold {
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+.title-h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.title-h2 {
+    text-transform: uppercase;
+    color: #575c61;
+    border-left: 10px solid  #e1e6ea;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 36px;
+    padding-left: 10px;
+}
+
+.title-white {
+    color: white;
+    border-left: 10px solid #4e5a62;
+}
+.title-h3 {
+    text-transform: uppercase;
+    color: #292f36;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.title-h3-white {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.feedback-title {
+    color: #8d8f92;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

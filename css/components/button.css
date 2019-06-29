@@ -1,0 +1,28 @@
+.button {
+	display: inline-block;
+	background: none;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 15px;
+}
+
+.button:hover {
+	border: 2px solid #23b7a4;
+	background-color: #23b7a4;
+}
+.button-white:hover {
+	color: white;
+}
+.button:focus {}
+
+.button:active {
+	border: 2px solid #23b7a4;
+	background-color: #23b7a4;
+}
+.button-white {
+	border: 1px solid #8d8f92;
+	color: #8d8f92;
+}

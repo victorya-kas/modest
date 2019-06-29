@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+/* .list-horizontal{
+  display: flex;
+} */
+
+.list-article {
+  counter-reset: list;
+  
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-item:before {
+  counter-increment: list;
+  content: counter(list, decimal-leading-zero) " ";
+  background-color: #23b7a4;
+  padding: 25px;
+  margin: 0 20px;
+  color: white;
+}
+.list-item-body > h3 {
+  margin-top: 0;
+}

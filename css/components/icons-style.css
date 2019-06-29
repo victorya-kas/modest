@@ -1,0 +1,44 @@
+.list-socials {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.list-socials > .social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    background-color: #c8cdd0;
+    padding: 30px;
+}
+.social-link:hover {
+    color: #23b7a4;
+}
+.social-link-footer {
+    border: none;
+    background-color:  #3e4347;
+    padding: 0px 10px;
+}
+.social-card {
+    background-color: #3e4347;
+    border-right: 1px solid white;
+}
+.social-card > a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.social-card > a:hover {
+    color:#23b7a4;
+}
+.card-icon > * {
+    display: block;
+    font-size: 48px;
+    color: #23b7a4;
+}

@@ -1,0 +1,27 @@
+.feedback {
+    background-color: white;
+    padding: 30px;
+    border: none;
+}
+.feedback-inform {
+    background: #eaeef1;
+    border: none;
+    height: 44px;
+    width: 240px;
+}
+.form-group {
+    display: flex;
+    margin: 0 -15px;
+    overflow: hidden;
+}
+.form-group > .form-control {
+    padding: 0px 15px;
+    padding-bottom: 30px;
+}
+.fb-field-large {
+    height: 159px;
+    width: 100%;
+}
+.form > .form-control {
+    padding-bottom: 32px;
+}

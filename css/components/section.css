@@ -1,0 +1,77 @@
+.section {
+  position: relative;
+  padding: 85px 0;
+}
+.section-background > img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  z-index:-2;
+  overflow: hidden;
+}
+.section-overlay {
+  color: rgba(0,0,0,0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  z-index:-1;
+}
+.section-title {
+  padding-bottom: 63px;
+}
+.section-team {
+  padding-bottom: 100px;
+}
+.section-left > .section-footer {
+  padding-top: 54px;
+}
+.section-work {
+  background-color: #3a454d;
+  padding-bottom: 0px;
+}
+.section-footer-work {
+	display: flex;
+  justify-content: center;
+  padding: 62px 0px;
+}
+.section-features {
+  background-color: #3a454d;
+}
+
+.section-bottom {
+  display: flex;
+}
+.section-bottom > .bottom-left {
+  width: 50%;
+  padding-top: 60px;
+}
+.bottom-left > .bottom-left-title {
+  padding-bottom: 39px;
+}
+.section-bottom > .bottom-right {
+  width: 50%;
+}
+
+.section-contact {
+  padding-bottom: 100px;
+}
+
+.bottom-right {
+  margin-top: -110px;
+}
+.section .section-heading {}
+.section .section-header {}
+.section .section-body {}
+
+.section-hero {
+  padding: 120px 0;
+}
+.section-about {
+  padding-top: 85px;
+}

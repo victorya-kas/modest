@@ -1,0 +1,31 @@
+.section-body {
+  display: flex;
+}
+.section-body > .section-left {
+  width: 60%;
+}
+.section-body > .section-right {
+  width: 40%;
+}
+
+.grid {
+  display: flex;
+  margin: 0 -10px;
+  flex-wrap: wrap;
+}
+.card-do-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid > .grid-col-4-item {
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+.grid > .grid-col-3-item{
+  width: 33.33%;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
